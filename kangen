@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kangen Asing</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            line-height: 1.8;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+        }
+        h1 {
+            color: #ffddaa;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        audio {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Musik sedih autoplay -->
+    <audio autoplay loop>
+        <source src="https://www.bensound.com/bensound-music/bensound-slowmotion.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="card">
+        <h1>Kangen — Asing</h1>
+        <p>Aku kangen banget sama kamu… Bukan kangen yang biasa, tapi kangen yang nyiksa tiap hari. 
+        Kangen cara kamu nyebut namaku, kangen obrolan tengah malam yang bikin lupa waktu, kangen semua momen kecil 
+        yang dulu kita anggap biasa, tapi ternyata berarti banget.</p>
+
+        <p>Dulu, kita deket. Kita saling ngerti, saling nyari, saling butuh. Kita nggak perlu alasan buat ngobrol, 
+        nggak perlu momen khusus buat ketawa bareng. Tapi sekarang… semuanya beda. Kita kayak dua orang asing 
+        yang kebetulan pernah punya cerita. Kita nggak lagi saling sapa seperti dulu, nggak lagi saling nyari, bahkan kadang 
+        pura-pura nggak lihat saat ada di waktu yang sama.</p>
+
+        <p>Aku nggak tahu kapan jarak ini mulai ada. Mungkin dari chat yang mulai jarang dibalas, atau dari senyum yang 
+        udah nggak sehangat dulu. Tapi yang aku tahu… rasa ini nggak pernah pergi. Kangen ini tetap ada, walau jarak dan waktu 
+        udah berubahin segalanya.</p>
+
+        <p>Sakitnya bukan cuma karena kita asing sekarang, tapi karena aku nggak tahu… apakah kamu juga kangen sama aku, 
+        atau cuma aku yang terjebak di masa lalu kita.</p>
+    </div>
+</body>
+</html>
